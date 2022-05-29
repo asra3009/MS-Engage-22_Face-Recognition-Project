@@ -2,7 +2,7 @@
 A web application with Face Recognition Attendance Tracking System 
 
 Can be used by Educational institutions(schools, universities) and organizations to track attendance of their employees and students
-#Programming Languages used:
+# Programming Languages used:
 BACKEND--> Python
 FRONTEND --> HTML,CSS,JS
 WEB FRAMEWORK USED --> Flask
@@ -22,3 +22,6 @@ Key features of the app:
 2.Bowser-based application--> A web app accessible across a range of devices for users
 3.Time efficient--> Records attendance within seconds and provides automated reports
 4.User-centric--> Responsive and user-friendly, provides pactical solutions
+
+
+#  REQUIREMENTS.TXT file contains all configurational and version settings
