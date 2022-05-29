@@ -1,5 +1,5 @@
 ## MS-Engage-22_Face-Recognition-Project
-A web application with Face Recognition Attendance System 
+A web application with Face Recognition Attendance Tracking System 
 
 Can be used by Educational institutions(schools, universities) and organizations to track attendance of their employees and students
 #Programming Languages used:
