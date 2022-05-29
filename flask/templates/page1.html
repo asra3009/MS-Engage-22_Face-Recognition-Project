@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Face Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css')}}">
+        
+    
+</head>
+
+<body>
+    
+    <nav>
+        <label class="logo" ><font face ="Verdana" >MS Engage'22</font></label>
+    </nav>
+    
+    <div class="loginbox">
+        <img src='static\login.png' class="avatar">
+        <h1> Login here</h1>
+        <form name="myform"  method="get" action="{{ url_for('page2') }}" >
+            <p> Username</p>
+            <input type="text" name="username" placeholder="Enter Username"   value=""required>
+            <p> Password </p>
+            <input type="password" name="password" placeholder="Enter Password" value=""required>
+            <input type="submit" name="" value="Login">
+                        
+            <br>
+            <br>
+            <br>
+
+
+        </form>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Attendance record </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style2.css')}}">
+    </head>
+    <body>
+        <nav>
+            <label class="logo" ><font face ="Verdana" >MS Engage'22</font></label>
+            <ul>
+                <li><a href =#><font face = "Verdana" ><a href = "{{ url_for('page6') }}">Contact us</a>  |<a href = "{{ url_for('page1') }}">Log Out</a></font></a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1><font face = "Trebuchet MS"> Attendance record</font> </h1>
+        </header><br>
+        <font face = "Verdana">
+            <div align="center">
+                <table>
+                    <h1>
+        <!--Displaying the converted table-->
+                    {% for table in tables %}
+                    <h2>{{titles[loop.index]}}</h2>
+                    {{ table|safe }}
+                    {% endfor %}
+                    </h1>
+                </table>
+            </div>
+        </font>
+        <img class = "image-2" src="static\12.png">
+        <footer>        
+            <h4><font face = "Trebuchet MS">SCHOOLS | INSTITUTES | ORGANIZATIONS</font></h4>
+        </footer>
+    </body>
+</html>

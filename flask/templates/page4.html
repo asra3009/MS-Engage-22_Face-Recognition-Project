@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Attendance marked</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style2.css')}}">
+    </head>
+    <body>
+        <nav>
+            <label class="logo" ><font face ="Verdana" >MS Engage'22</font></label>
+            <ul>
+                <li><a href =#><font face = "Verdana" ><a href = "{{ url_for('page6') }}">Contact us</a>  |<a href = "{{ url_for('page1') }}">Log Out</a></font></a></li>
+            </ul>
+        </nav>
+        <center>
+            <img src="static\confirm.gif">
+            <h2><font face="Trebuchet MS">Attendance marked!</font></h2>
+            <a href="{{ url_for('page5') }}"><button class="btn-3"> View attendance record </button></a>
+        </center>
+        <footer>        
+            <h4><font face = "Trebuchet MS">SCHOOLS | INSTITUTES | ORGANIZATIONS</font></h4>
+        </footer>
+
+    </body>
+</html>
